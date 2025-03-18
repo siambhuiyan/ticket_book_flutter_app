@@ -1,3 +1,16 @@
+buildscript {
+    ext.kotlin_version = '2.1.10'
+    repositories {
+        google()  // Google's Maven repository
+        mavenCentral()  // Maven Central repository
+    }
+    dependencies {
+        // Add the Google services classpath to the buildscript dependencies
+        classpath 'com.google.gms:google-services:4.4.2'  // Add the dependency here
+    }
+}
+
+
 allprojects {
     repositories {
         google()
