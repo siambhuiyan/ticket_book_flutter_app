@@ -8,6 +8,9 @@ class AppStyles {
   static Color bgColor = const Color(0xFFeeedf2);
   static Color ticketBlue = const Color(0xff526799);
   static Color ticketOrange = const Color(0xfff37b67);
+  static Color ticketColor = const Color(0xffffffff);
+  static Color dotColor = const Color(0xff8accf7);
+  static Color planeSecondColor = const Color(0xffbaccf7);
   static TextStyle textStyle = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w500,
@@ -30,5 +33,6 @@ class AppStyles {
   static TextStyle headLineStyle4 = TextStyle(
     fontSize: 17,
     fontWeight: FontWeight.w400,
+    // color: Colors.grey.shade500,
   );
 }

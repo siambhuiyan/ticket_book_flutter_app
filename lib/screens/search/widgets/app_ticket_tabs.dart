@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 import 'option_tabs.dart';
 
 class AppTicketTabs extends StatelessWidget {
-  const AppTicketTabs({super.key});
+  const AppTicketTabs({super.key, required this.firstTab, required this.secondTab});
+  final String firstTab;
+  final String  secondTab;
 
   @override
   Widget build(BuildContext context) {
@@ -14,14 +16,16 @@ class AppTicketTabs extends StatelessWidget {
       child: Row(
         children: [
           OptionTabs(
-            tabText: 'Airlines Tickets',
+            tabText: firstTab,
             isRight: false,
             tabColor: false,
           ),
-          OptionTabs(tabText: 'Hotels'),
+          OptionTabs(tabText: secondTab),
         ],
       ),
     );
   }
   }
+  //''
+//
 
