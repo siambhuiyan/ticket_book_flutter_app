@@ -19,7 +19,7 @@ class TicketView extends StatelessWidget {
     final size = MediaQuery.of(context).size;
     return SizedBox(
       width: size.width * .85,
-      height: 198,
+      height: isColor==null?222:198,
       child: Container(
         margin: EdgeInsets.only(right: wholeScreen==true?0:16),
         child: Column(

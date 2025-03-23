@@ -115,7 +115,7 @@ class HomeScreen extends StatelessWidget {
                 AppDoubleText(
                   bigText: 'Hotels',
                   smallText: 'View all',
-                  func: () => Navigator.pushNamed(context, AppRoutes.allHotels),
+                  func: () => Navigator.pushNamed(context, AppRoutes.allHotelsGridView),
                 ),
                 SizedBox(
                   height: 20,

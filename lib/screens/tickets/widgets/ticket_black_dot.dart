@@ -11,10 +11,10 @@ class TicketBlackDot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Positioned(
-      left: pos==true?22:null,
-      right : pos==true?null:22,
+      left: pos==true?27:null,
+      right : pos==true?null:27,
 
-      top:295,
+      top:276.5,
       child: Container(
         padding: EdgeInsets.all(3),
         decoration: BoxDecoration(
